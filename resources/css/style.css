@@ -1,3 +1,4 @@
+/* MAIN ELEMENTS */
 body {
   width: 100%;
   margin: auto;
@@ -22,6 +23,7 @@ header {
 
 footer {
   margin-bottom: 40px;
+  margin-top: 30px;
 }
 
 footer p {
@@ -62,6 +64,7 @@ nav li {
   padding-left: 20px;
 }
 
+/* CLASSES */
 .logo {
   padding-left: 10px;
   display: flex;
@@ -128,9 +131,9 @@ nav li {
 }
 
 .contact {
-  margin-top: 40px;
+  padding-top: 40px;
   opacity: 0.9;
-  height: 200px;
+  height: 160px;
 }
 
 .copyright {
@@ -139,12 +142,14 @@ nav li {
   font-size: 18px;
 }
 
+/* IDS */
 #Mission{
   display: flex;
   align-items: center;
   height: 700px;
   width: 1200px;
   background-image: url(../images/img-mission-background.jpg);
+  overflow: hidden;
 }
 
 #Mission .title {
@@ -166,6 +171,7 @@ nav li {
   width: 1200px;
   height: 500px;
   background-image: url(../images/img-locations-background.jpg);
+  overflow: hidden;
   margin-top: 60px;
 }
 
